@@ -25,6 +25,10 @@
     div#formulario p {
         font-size: .9em;
     }
+    form div.campo1 input {
+        width: 300px;
+        
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -51,5 +55,9 @@
     }
     div#formulario p {
         font-size: .9em;
+    }
+    form div.campo1 input {
+        width: 300px;
+        
     }
 }

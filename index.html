@@ -18,20 +18,28 @@
                 <h1>Login</h1>
                 <p>Faça login aqui!</p>
                 <form action="login.php" method="post">
-                    <p>
-                        <span class="material-symbols-outlined">Mail</span>
-                        <input type="email" name="log" id="ilog" placeholder="seu E-mail">
-                        <label for="ilog">Login</label>
-                    </p>
-                    <p>
-                        <span class="material-symbols-outlined">key</span>
-                        <input type="password" name="sen" id="isen" placeholder="sua senha">
-                        <label for="isen">Senha</label>
-                    </p>
-                    <p>
-                        <input type="submit" value="Login">
-                        <input type="button" value="Esqueci a senha">
-                    </p>
+                    <div class="campo1">
+                        <p>
+                            <span class="material-symbols-outlined">Mail</span>
+                            <input type="email" name="log" id="ilog" placeholder="seu E-mail" required>
+                            <label for="ilog"></label>
+                        </p>
+                    </div>
+                        <div class="campo1">
+                            <p>
+                                <span class="material-symbols-outlined">key</span>
+                                <input type="password" name="sen" id="isen" placeholder="sua senha" required minlength="8" maxlength="16">
+                                <label for="isen"></label>
+                            </p>
+                        </div>
+                            <div class="botao">
+                                <p>
+                                    <input type="submit" value="Login">
+                                </p>
+                                <p>
+                                    <input type="button" value="Esqueci a senha">
+                                </p>
+                            </div>
                 </form>        
             </div>
         </section>
