@@ -49,3 +49,10 @@ section#login div#formulario form p input {
     text-align: center;
     margin: auto;
 }
+div#formulario h1 {
+    font-size: 1.5em;
+    padding: 5px;
+}
+div#formulario p {
+    font-size: .8em;
+}
